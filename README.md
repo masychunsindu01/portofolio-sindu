@@ -5,7 +5,9 @@ Berisi profil, daftar proyek, dan form kontak.
 
 **Teknologi:** HTML, CSS, Git, GitHub, Vercel
 
-**Live Website:** https://portofolio-sindu-gok9oy4la-masychunsindu01.vercel.app
+**Live Website:** https://
+portofolio-sindu-git-main-masychunsindu01.vercel.app
+
 
 **Tampilan:**
 ![Beranda](screenshot-beranda.png)
