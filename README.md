@@ -42,4 +42,8 @@ Link: https://portofolio-sindu-git-main-masychunsindu01.vercel.app
 ## 👤 Pembuat
 
 **Masychun Sindu Tamtomo**  
+<<<<<<< HEAD
 SMKN 1 Pasuruan — Kelas 10 RPL 1
+=======
+SMKN 1 Pasuruan — Kelas 10 RPL 1
+>>>>>>> 416de30 (portofolio_sindu)
