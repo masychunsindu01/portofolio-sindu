@@ -1,4 +1,4 @@
-# Profil Digital Responsive - Rasen
+# Profil Digital Responsive - Sindu
 
 Website profil pribadi yang dibuat sebagai project pembelajaran **Junior Web Developer** di SMKN 1 Pasuruan.
 
@@ -20,7 +20,6 @@ Website ini menampilkan profil pribadi, informasi singkat, dan beberapa halaman 
 
 - Tampilan responsif untuk desktop dan HP
 - Navigasi menu desktop dan mobile
-- Desain dark glassmorphism
 - Kartu profil dengan efek visual
 
 ## 📁 Struktur Folder
@@ -38,9 +37,9 @@ project/
 
 ## 🚀 Demo Website
 
-Link: https://portofolio-rasen-rasnzz.vercel.app
+Link: https://portofolio-sindu-git-main-masychunsindu01.vercel.app
 
 ## 👤 Pembuat
 
-**Rasendriya Sahwahita Putra**  
+**Masychun Sindu Tamtomo**  
 SMKN 1 Pasuruan — Kelas 10 RPL 1
