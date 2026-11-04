@@ -1,6 +1,5 @@
 // Latihan JavaScript Dasar - Minggu 06
 // Kalkulator nilai rapor di Console
-
 // 1. Pesan pertama ke Console
 console.log("Halo, saya Sindu!");
 console.log("Ini latihan JavaScript pertamaku.");
@@ -35,7 +34,7 @@ const rata = hitungRataRata(tugas, uts, uas);
 return `${namaSiswa}: rata-rata ${rata}, predikat ${predikat(rata)}`;
 }
 
-// 4. Hasil nilai Fadli
+// 4. Hasil nilai Sindu
 const rataRata = hitungRataRata(nilaiTugas, nilaiUts, nilaiUas);
 const lulus = rataRata >= kkm;
 const dapatSertifikat = lulus && kehadiran >= 80;
@@ -58,6 +57,6 @@ console.log(`predikat(77): ${predikat(77)}`); // C
 console.log(`predikat(69): ${predikat(69)}`); // D
 
 // 6. Rapor beberapa siswa
-console.log(`rapor("Fadli", 85, 78, 89): ${rapor("Sindu", 85, 78, 89)}`);
+console.log(`rapor("Sindu", 85, 78, 89): ${rapor("Sindu", 85, 78, 89)}`);
 console.log(`rapor("Sinta", 92, 88, 96): ${rapor("Sinta", 92, 88, 96)}`);
 console.log(`rapor("Budi", 70, 65, 72): ${rapor("Budi", 70, 65, 72)}`);
