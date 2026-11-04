@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kalkulator Nilai</title>
+  <script src="kalkulator.js"defer></script>
+
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #e8f0fe;
+      margin: 0;
+      padding: 40px 15px;
+    }
+
+    .container {
+      background-color: white;
+      width: 320px;
+      margin: auto;
+      padding: 25px;
+      border-radius: 10px;
+      box-shadow: 0 3px 10px #ccc;
+    }
+
+    h1 {
+      text-align: center;
+      color: #2456a6;
+      font-size: 25px;
+    }
+
+    label {
+      display: block;
+      margin-top: 15px;
+      margin-bottom: 5px;
+    }
+
+    input {
+      width: 100%;
+      padding: 10px;
+      box-sizing: border-box;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+
+    button {
+      width: 100%;
+      padding: 11px;
+      margin-top: 20px;
+      background-color: #2456a6;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background-color: #163d7a;
+    }
+
+    #result {
+      text-align: center;
+      margin-top: 20px;
+      font-weight: bold;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="container">
+    <h1>Kalkulator Nilai</h1>
+
+    <form action="#" id="form">
+
+      <label for="tugas">Nilai Tugas</label>
+      <input type="number" id="tugas" min="0" max="100" required>
+
+      <label for="uts">Nilai UTS</label>
+      <input type="number" id="uts" min="0" max="100" required>
+
+      <label for="uas">Nilai UAS</label>
+      <input type="number" id="uas" min="0" max="100" required>
+
+      <button type="submit">Hitung Nilai</button>
+
+    </form>
+
+    <p id="result"></p>
+  </div>
+
+  <script type="module" src="js/kalkulator.js" defer></script>
+
+</body>
+</html>
