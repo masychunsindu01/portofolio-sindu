@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kalkulator Nilai | Sindu</title>
+    <link rel="icon" href="img/foto-profil.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Poppins:wght@600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="container navbar">
+        <h1>Masychun Sindu Tamtomo</h1>
+        <nav class="menu-laptop">
+          <ul>
+            <li><a href="index.html">Beranda</a></li>
+            <li><a href="proyek.html">Proyek</a></li>
+            <li><a href="kontak.html">Kontak</a></li>
+            <li><a href="kalkulator.html">Kalkulator Nilai</a></li>
+          </ul>
+        </nav>
+        <button type="button" id="tombol-tema" class="tombol-tema">
+          Mode Gelap
+        </button>
+        <details class="menu-ponsel">
+          <summary>Menu</summary>
+          <nav>
+            <ul>
+              <li><a href="index.html">Beranda</a></li>
+              <li><a href="proyek.html">Proyek</a></li>
+              <li><a href="kontak.html">Kontak</a></li>
+              <li><a href="kalkulator.html">Kalkulator Nilai</a></li>
+            </ul>
+          </nav>
+        </details>
+      </div>
+    </header>
+
+    <main>
+      <div class="container">
+        <section class="kartu">
+          <h2>Kalkulator Nilai Rapor</h2>
+          <p>Hitung rata-rata Tugas, UTS, dan UAS secara otomatis.</p>
+
+          <p>
+            <label for="tugas">Nilai Tugas:</label><br />
+            <input
+              type="number"
+              id="tugas"
+              placeholder="contoh: 85"
+              style="width: 100%; padding: 12px; margin-top: 6px"
+            />
+          </p>
+          <p>
+            <label for="uts">Nilai UTS:</label><br />
+            <input
+              type="number"
+              id="uts"
+              placeholder="contoh: 78"
+              style="width: 100%; padding: 12px; margin-top: 6px"
+            />
+          </p>
+          <p>
+            <label for="uas">Nilai UAS:</label><br />
+            <input
+              type="number"
+              id="uas"
+              placeholder="contoh: 89"
+              style="width: 100%; padding: 12px; margin-top: 6px"
+            />
+          </p>
+
+          <button id="hitung" class="tombol">Hitung</button>
+
+          <p
+            id="hasil"
+            style="
+              margin-top: 20px;
+              font-weight: bold;
+              padding: 12px;
+              border-radius: 8px;
+            "
+          >
+            Hasil akan muncul di sini
+          </p>
+        </section>
+      </div>
+    </main>
+
+    <footer>
+      <p>
+        Kontak:
+        <a
+          href="https://mail.google.com/mail/?view=cm&fs=1&to=sindu7181@gmail.com"
+          target="_blank"
+          >sindu7181@gmail.com</a
+        >
+        |
+        <a
+          href="https://github.com/masychunsindu01/portofolio-sindu/"
+          target="_blank"
+          >GitHub</a
+        >
+        |
+        <a
+          href="https://www.youtube.com/channel/UC3rPftlkmGB0_WsRd4itGmw/"
+          target="_blank"
+          >YouTube</a
+        >
+      </p>
+      <p>&copy; 2026 Masychun Sindu Tamtomo. Dibuat di Kelas Industri UBIG.</p>
+    </footer>
+    <script src="js/main.js" defer></script>
+    <script src="js/kalkulator.js"></script>
+  </body>
+</html>

@@ -1,0 +1,355 @@
+/* Gaya portofolio Masychun Sindu Tamtomo
+   Palet: #1D3557 (utama), #E63946 (aksen), #F1FAEE (latar)
+   Huruf: Poppins (judul), Inter (isi)
+   Tata letak: mobile first, titik ubah 768px (tablet) dan 1024px (laptop) */
+
+/* 1. Reset */
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* 2. Dasar halaman: warna dan huruf */
+:root {
+  --warna-utama: #1d3557;
+  --warna-judul: #1d3557;
+  --warna-aksen: #e63946;
+  --warna-tautan: #e63946;
+  --warna-latar: #f1faee;
+  --warna-teks: #333333;
+  --warna-kartu: #ffffff;
+  --warna-garis: #dddddd;
+}
+
+body {
+  font-family: "Inter", Arial, sans-serif;
+  font-size: 1rem;
+  line-height: 1.6;
+  color: var(--warna-teks);
+  background-color: var(--warna-latar);
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Poppins", Arial, sans-serif;
+  color: var(--warna-judul);
+  line-height: 1.3;
+}
+
+h2 {
+  margin-bottom: 0.75rem;
+}
+
+p,
+ul,
+ol {
+  margin-bottom: 1rem;
+}
+
+a {
+  color: var(--warna-tautan);
+}
+
+/* 3. Wadah, header, dan menu */
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+header {
+  background-color: var(--warna-utama);
+  color: #ffffff;
+  padding: 1rem 0;
+}
+
+header h1 {
+  color: #ffffff;
+  font-size: 1.5rem;
+}
+
+.navbar {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+nav ul {
+  display: flex;
+  gap: 0.25rem;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+nav a {
+  display: inline-block;
+  padding: 0.5rem 0.75rem;
+  border-radius: 6px;
+  color: #ffffff;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+/* Tantangan: menu ponsel buka-tutup dengan details */
+.menu-laptop {
+  display: none;
+}
+
+.menu-ponsel summary {
+  padding: 0.5rem 0.75rem;
+  border: 1px solid #ffffff;
+  border-radius: 6px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.menu-ponsel ul {
+  flex-direction: column;
+  margin-top: 0.5rem;
+}
+
+/* 4. Isi utama, hero, dan kartu */
+main {
+  padding: 1.5rem 0;
+}
+
+.hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.5rem;
+  padding: 1rem 0 2rem;
+  text-align: center;
+}
+
+.hero img {
+  width: 160px;
+  height: 160px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 4px solid #333333;
+}
+
+.hero h2 {
+  font-size: 2rem;
+}
+
+.tombol {
+  display: inline-block;
+  padding: 0.75rem 1.5rem;
+  border-radius: 6px;
+  background-color: var(--warna-aksen);
+  color: #ffffff;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.kartu {
+  background-color: var(--warna-kartu);
+  padding: 1rem;
+  margin-bottom: 1.5rem;
+  border: 1px solid var(--warna-garis);
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+.daftar-kartu {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.daftar-kartu .kartu {
+  flex: 1 1 280px;
+  margin-bottom: 0;
+}
+
+article img {
+  border-radius: 8px;
+  border: 1px solid var(--warna-garis);
+}
+
+/* 5. Tabel */
+table {
+  border-collapse: collapse;
+}
+
+caption {
+  font-weight: 600;
+  text-align: left;
+  margin-bottom: 0.5rem;
+}
+
+th,
+td {
+  border: 1px solid var(--warna-garis);
+  padding: 0.5rem 0.75rem;
+  text-align: left;
+}
+
+th {
+  background-color: var(--warna-utama);
+  color: #ffffff;
+}
+
+/* 6. Form */
+label {
+  font-weight: 600;
+}
+
+input,
+select,
+textarea {
+  width: 100%;
+  max-width: 22rem;
+  padding: 0.6rem;
+  margin-top: 0.25rem;
+  border: 1px solid var(--warna-garis);
+  border-radius: 6px;
+  font-family: inherit;
+  font-size: 1rem;
+  background-color: var(--warna-kartu);
+  color: var(--warna-teks);
+}
+
+button {
+  padding: 0.75rem 1.5rem;
+  border: none;
+  border-radius: 6px;
+  background-color: var(--warna-aksen);
+  color: #ffffff;
+  font-family: inherit;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.keterangan {
+  font-size: 0.875rem;
+}
+
+/* 7. Footer */
+footer {
+  background-color: var(--warna-utama);
+  color: #f1faee;
+  text-align: center;
+  padding: 1.5rem;
+}
+
+footer p {
+  margin-bottom: 0.25rem;
+}
+
+footer a {
+  color: #ffffff;
+}
+
+/* 8. Tablet: lebar layar 768px ke atas */
+@media (min-width: 768px) {
+  .menu-laptop {
+    display: block;
+  }
+
+  .menu-ponsel {
+    display: none;
+  }
+
+  .hero {
+    flex-direction: row;
+    padding: 2rem 0 3rem;
+    text-align: left;
+  }
+
+  .kartu {
+    padding: 1.5rem;
+  }
+}
+
+/* 9. Laptop: lebar layar 1024px ke atas */
+@media (min-width: 1024px) {
+  main {
+    padding: 2.5rem 0;
+  }
+
+  .hero {
+    gap: 3rem;
+  }
+
+  .hero h2 {
+    font-size: 2.75rem;
+  }
+}
+
+/* 10. Tombol tema, filter, dan label kategori */
+.tombol-tema {
+  padding: 0.5rem 0.9rem;
+  border: 2px solid #ffffff;
+  background-color: transparent;
+  font-size: 0.9rem;
+}
+.filter,
+.filter-proyek {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+}
+.tombol-filter {
+  padding: 0.5rem 1rem;
+  border: 2px solid var(--warna-garis);
+  background-color: var(--warna-kartu);
+  color: var(--warna-judul);
+}
+.tombol-filter.aktif {
+  background-color: var(--warna-aksen);
+  border-color: var(--warna-aksen);
+  color: #ffffff;
+}
+
+.label {
+  display: inline-block;
+  padding: 0.1rem 0.6rem;
+  margin-bottom: 0.5rem;
+  border-radius: 999px;
+  background-color: var(--warna-latar);
+  color: var(--warna-judul);
+  font-size: 0.85rem;
+  font-weight: 600;
+}
+
+/* 11. Tema gelap: isi variabel diganti saat body memiliki class gelap */
+body.gelap {
+  --warna-utama: #0b1526;
+  --warna-judul: #a8dadc;
+  --warna-tautan: #ff8a8a;
+  --warna-latar: #121a24;
+  --warna-teks: #e3e8ee;
+  --warna-kartu: #1c2836;
+  --warna-garis: #34465a;
+}
+body.gelap .tombol-filter.aktif {
+  background-color: #ff8a8a;
+  border-color: #ff8a8a;
+  color: #0b1526;
+}
+
+#hasil {
+  background-color: var(--warna-kartu);
+  color: var(--warna-teks);
+  border: 1px solid var(--warna-garis);
+}
+
+body.gelap #hasil {
+  background-color: var(--warna-kartu);
+  color: var(--warna-teks);
+}
