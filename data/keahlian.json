@@ -1,0 +1,18 @@
+[
+  {
+    "nama": "HTML",
+    "level": "Mahir"
+  },
+  {
+    "nama": "CSS",
+    "level": "Menengah"
+  },
+  {
+    "nama": "Git dan GitHub",
+    "level": "Dasar"
+  },
+  {
+    "nama": "JavaScript",
+    "level": "Dasar"
+  }
+]
