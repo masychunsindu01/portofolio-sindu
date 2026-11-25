@@ -177,6 +177,11 @@ main {
 #daftar-proyek {
   min-height: 30rem;
 }
+@media (max-width: 600px) {
+  #daftar-proyek {
+    min-height: 150rem;
+  }
+}
 
 article img {
   border-radius: 8px;
