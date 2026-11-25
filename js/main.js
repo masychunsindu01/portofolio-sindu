@@ -98,8 +98,7 @@ function buatKartu(item) {
       <h3>${item.judul}</h3>
       <img src="${item.gambar}" alt="${item.alt}" width="280" height="184" loading="lazy">
       <p>${item.deskripsi}</p>
-    </article>
-  `;
+    </article>`;
 }
 
 function tampilkanProyek(daftar) {
